@@ -11,12 +11,17 @@ body {
 img {
   display: block;
   width: 100%;
+  z-index: -1;
 }
 
 .add-button {
   position: absolute;
-  top: 1px;
-  left: 1px;
+  top: 10px;
+  left: 10px;
+  background: purple;
+  font-size: 20px;
+  border: 1px solid green;
+  z-index: 1;
 }
 
 @media (orientation: landscape) {
